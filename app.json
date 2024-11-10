@@ -4,6 +4,7 @@
     "slug": "newproject",
     "version": "1.0.0",
     "orientation": "portrait",
+    "entryPoint": "./App.js",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.lak001.HiWe"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4eb1bf99-dc5d-4e26-8e82-5f6a36a0ecf1"
+      }
     }
   }
 }
