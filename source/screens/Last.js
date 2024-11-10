@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   image: {
-    width: 350,
-    height: 700,
+    width: 370,
+    height: 660,
     resizeMode: 'contain',
   },
 });

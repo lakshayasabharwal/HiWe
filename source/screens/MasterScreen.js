@@ -76,7 +76,7 @@ const MasterScreen = () => {
           onPress={() => setActiveScreen('AboutYou')}
         >
           <Image
-            source={require('../../assets/PROFILE ICON.png')}
+            source={require('../../assets/info_11584501.png')}
             style={[styles.icon, activeScreen === 'AboutYou' ? styles.iconFocused : null]}
           />
           <Text style={activeScreen === 'AboutYou' ? styles.labelFocused : styles.label}>
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
   icon: {
     width: 30,
     height: 30,
-    tintColor: '#808080',
+    tintColor: '#f1c27d',
   },
   iconFocused: {
     tintColor: '#ffcc00',

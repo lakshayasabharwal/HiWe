@@ -84,8 +84,8 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   paymentImage: {
-    width: '90%',
-    height: 360,
+    width: '80%',
+    height: 280,
     resizeMode: 'cover',
     borderRadius: 15,
     marginBottom: 20,
